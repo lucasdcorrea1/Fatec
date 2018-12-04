@@ -11,8 +11,10 @@ var
    i,j,n,c,nota     :inteiro
    notamaior,porcent:real
 inicio
-escreval("CADASTRO DE GABARITO")
-escreval("---------------------")
+   escreval("Aluno: Lucas Damas Correa 1º ADS Manhã")
+   escreval("Aluno: Rodrigo Morais Santos 1º ADS Manhã")
+   escreval("CADASTRO DE GABARITO")
+   escreval("---------------------")
    Para i <- 1 ate 10 faca
     escreva("Questão",i,":")
     leia(let[i])
@@ -43,7 +45,7 @@ escreval("---------------------")
         se nota => 6 entao
           c <- (c + 1)
         fimse
-        porcent <- (c / 3)* 100
+        porcent <- (c / 50)* 100
         se notamaior < nota entao
            notamaior <- nota
         fimse
