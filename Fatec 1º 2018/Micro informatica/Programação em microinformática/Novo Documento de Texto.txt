@@ -1,0 +1,7 @@
+comandos condicionais
+caracteristica: presença de condições
+expressão lógica
+operadores relacionais
+>, >=, <, <=, ==, <>
+operadores logicos
+and, or

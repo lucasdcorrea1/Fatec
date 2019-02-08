@@ -1,8 +1,0 @@
-Produto	 Valor 		
-Caderno	R$10,00		
-Bolsa	R$20,00		
-Lapis	R$4,00		R$69,00
-Borracha	R$20,00		
-Caneta	R$5,00		
-Caneta	R$5,00		
-Caneta	R$5,00		
