@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div id='root' style="border: 1px solid red;">
+    <p>Parágrafo criado em HTML</p>
+  </div>
+
+  <script>
+    const root = document.getElementById('root');
+
+    const novoParagrafo = document.createElement('p');
+    novoParagrafo.textContent = 'Paragrafo criado com JavaScript';
+
+    root.appendChild(novoParagrafo)
+
+    const novaDiv = document.createElement('div');
+    novaDiv.textContent = 'Div Criada com JavaScript'
+    novaDiv.style.border = '3px dootted green'
+    novaDiv.style.background = 'limegreen'
+
+    document.body.appendChild(novaDiv)
+  </script>
+
+</body>
+
+</html>
